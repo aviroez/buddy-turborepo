@@ -1,0 +1,19 @@
+{
+    "name": "@buddy-turborepo/shared",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc --project tsconfig.json"
+    },
+    "dependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/inquirer": "^8.2.10",
+        "glob": "^11.0.0",
+        "inquirer": "^8.2.6",
+        "minimatch": "^10.0.1"
+    }
+}

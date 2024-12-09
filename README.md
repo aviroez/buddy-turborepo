@@ -7,7 +7,7 @@ This is an official starter Turborepo.
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+npm install
 ```
 
 ## What's inside?

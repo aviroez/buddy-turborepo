@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@buddy-turborepo/shared": ["packages/shared/src/index.ts"]
+      }
+    }
+}
+  
