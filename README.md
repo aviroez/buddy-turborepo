@@ -7,26 +7,31 @@ This is a starter for turborepo EBUDDY PTE. LTD. Technical Test.
 Run the following command:
 
 ```sh
+git clone git@github.com:aviroez/buddy-turborepo.git
+cd buddy-turborepo
+git checkout main
 npm install
 ```
 
 ## Create Backend
 
-This Turborepo includes the following packages/apps:
+This Turborepo inside directory `buddy-turborepo/apps`:
 ```sh
-mkdir apps/backend
-cd apps/backend
-git clone git@github.com:aviroez/backend-repo.git
+git clone git@github.com:aviroez/backend-repo.git backend
+cd backend
+git checkout main
+npm install
 ```
 Continue setup on [https://github.com/aviroez/backend-repo](https://github.com/aviroez/backend-repo)
 
 ## Create Frontend
 
-This Turborepo includes the following packages/apps:
+This Turborepo inside directory `buddy-turborepo/apps`:
 ```sh
-mkdir apps/frontend
-cd apps/frontend
-git clone git@github.com:aviroez/frontend-repo.git
+git clone git@github.com:aviroez/frontend-repo.git frontend
+cd frontend
+git checkout main
+npm install
 ```
 Continue setup on [https://github.com/aviroez/frontend-repo](https://github.com/aviroez/frontend-repo)
 
@@ -34,7 +39,7 @@ Continue setup on [https://github.com/aviroez/frontend-repo](https://github.com/
 
 To build all apps and packages, run the following command:
 
-```
+```sh
 npm build
 ```
 
@@ -42,6 +47,6 @@ npm build
 
 To develop all apps and packages, run the following command:
 
-```
+```sh
 npm dev
 ```
